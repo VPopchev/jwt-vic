@@ -55,7 +55,6 @@ module.exports = function (params) {
   params.session = false;
   return function (req, res, next) {
     passport.authenticate(strategyName, params, params.getCommonAuthCallback(req, res, () => {
-    passport.authenticate(strategyName, params, params.getCommonAuthCallback(req, res, () => {
       req.headers['X-User-Id'] = params.userId;
       next();
     }))(req, res, next);
