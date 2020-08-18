@@ -3,7 +3,7 @@ const uuid = require('uuid/v4');
 const passport = require('passport');
 const JWTStrategy = require('passport-jwt').Strategy;
 const extractors = require('./extractors');
-const services = require('../../express-gateway/lib/services');
+const services = require('express-gateway/lib/services');
 
 module.exports = function (params) {
   const strategyName = `jwt-${uuid()}`;
