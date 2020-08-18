@@ -2,6 +2,7 @@ const extractors = require('./extractors');
 
 module.exports = {
   policy: require('./jwt'),
+  name: "jwt-vic",
   schema: {
     $id: 'http://express-gateway.io/schemas/policies/jwt.json',
     type: 'object',
