@@ -1,12 +1,12 @@
 const fs = require('fs');
-const uuid = require('uuid/v4');
+const uuid = require('uuid');
 const passport = require('passport');
 const JWTStrategy = require('passport-jwt').Strategy;
 const extractors = require('./extractors');
 const services = require('express-gateway/lib/services');
 
 module.exports = function (params) {
-  const strategyName = `jwt-${uuid()}`;
+  const strategyName = `jwt-${uuid.v4()}`;
   const secretOrKey = params.secretOrPublicKeyFile ? fs.readFileSync(params.secretOrPublicKeyFile) : params.secretOrPublicKey;
   const extractor = extractors[params.jwtExtractor](params.jwtExtractorField);
 

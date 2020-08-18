@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74cc4192-e043-4f97-8bc4-45e9df40d1d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/jwt.js" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/jwt.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +24,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tests/repo-tests/recard" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
   </component>
@@ -37,6 +41,8 @@
       <updated>1597670134244</updated>
       <workItem from="1597670135472" duration="228000" />
       <workItem from="1597736780784" duration="608000" />
+      <workItem from="1597747814230" duration="1548000" />
+      <workItem from="1597749797563" duration="4814000" />
     </task>
     <servers />
   </component>
@@ -48,10 +54,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2592" y="283" key="#Node.js_and_NPM/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597670208055" />
-    <state x="739" y="262" key="FileChooserDialogImpl" timestamp="1597737387553">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2659" y="262" key="FileChooserDialogImpl" timestamp="1597749363970">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597737387553" />
-    <state x="2659" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597670362060" />
+    <state x="2659" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597749363970" />
   </component>
 </project>
